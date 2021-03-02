@@ -1,0 +1,8 @@
+2020-07-15 13:22:12,750 - ERROR - test_user_login.py[:78] - 老郭，老郭：报错了
+Traceback (most recent call last):
+  File "/Users/edz/Desktop/selenium/src/my_selenium_project/testcases/log/test_user_login.py", line 76, in test2_user_login_ok
+    assert self.driver.title == expected+"~!"
+AssertionError: assert '用户中心' == '用户中心~!'
+  - 用户中心~!
+  ?     --
+  + 用户中心

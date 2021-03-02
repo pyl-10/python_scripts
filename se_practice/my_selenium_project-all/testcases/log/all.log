@@ -1,0 +1,17 @@
+2020-07-15 13:17:26,203 - INFO - 测试用户登录
+2020-07-15 13:17:26,398 - DEBUG - 输入用户名称：
+2020-07-15 13:22:05,171 - INFO - 测试用户登录
+2020-07-15 13:22:05,321 - DEBUG - 输入用户名称：
+2020-07-15 13:22:05,566 - DEBUG - 输入密码：123456
+2020-07-15 13:22:05,739 - DEBUG - 点击登录
+2020-07-15 13:22:08,859 - DEBUG - 输入用户名称：admin
+2020-07-15 13:22:09,225 - DEBUG - 输入密码：123456
+2020-07-15 13:22:09,325 - DEBUG - 点击登录
+2020-07-15 13:22:12,750 - ERROR - 老郭，老郭：报错了
+Traceback (most recent call last):
+  File "/Users/edz/Desktop/selenium/src/my_selenium_project/testcases/log/test_user_login.py", line 76, in test2_user_login_ok
+    assert self.driver.title == expected+"~!"
+AssertionError: assert '用户中心' == '用户中心~!'
+  - 用户中心~!
+  ?     --
+  + 用户中心
