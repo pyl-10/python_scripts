@@ -1,1 +1,1 @@
-# practice_python_scripts
+# python_scripts
