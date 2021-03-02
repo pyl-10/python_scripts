@@ -1,0 +1,29 @@
+ 2020-10-17 10:21:23,861 - DEBUG - Start of program
+ 2020-10-17 10:21:23,861 - DEBUG - Start of factorial (5%)
+ 2020-10-17 10:21:23,861 - DEBUG - i is1, total is1
+ 2020-10-17 10:21:23,861 - DEBUG - i is2, total is2
+ 2020-10-17 10:21:23,861 - DEBUG - i is3, total is6
+ 2020-10-17 10:21:23,861 - DEBUG - i is4, total is24
+ 2020-10-17 10:21:23,862 - DEBUG - i is5, total is120
+ 2020-10-17 10:21:23,862 - DEBUG - End of factorial (5%)
+ 2020-10-17 10:21:23,862 - DEBUG - End of program
+ 2020-10-17 10:21:23,862 - INFO - info
+ 2020-10-17 10:21:23,862 - WARNING - warning
+ 2020-10-17 10:21:23,862 - ERROR - error
+ 2020-10-17 10:21:23,862 - CRITICAL - critical
+ 2020-10-17 10:22:57,580 - DEBUG - Start of program
+ 2020-10-17 10:22:57,580 - DEBUG - Start of factorial (5%)
+ 2020-10-17 10:22:57,581 - DEBUG - i is1, total is1
+ 2020-10-17 10:22:57,581 - DEBUG - i is2, total is2
+ 2020-10-17 10:22:57,581 - DEBUG - i is3, total is6
+ 2020-10-17 10:22:57,581 - DEBUG - i is4, total is24
+ 2020-10-17 10:22:57,581 - DEBUG - i is5, total is120
+ 2020-10-17 10:22:57,582 - DEBUG - End of factorial (5%)
+ 2020-10-17 10:22:57,582 - DEBUG - End of program
+ 2020-10-17 10:22:57,582 - INFO - info
+ 2020-10-17 10:22:57,582 - WARNING - warning
+ 2020-10-17 10:22:57,582 - ERROR - error
+ 2020-10-17 10:22:57,582 - CRITICAL - critical
+ 2020-10-17 10:24:38,840 - DEBUG - Start of program
+ 2020-10-17 10:24:38,841 - DEBUG - Start of factorial (5%)
+ 2020-10-17 10:26:32,205 - DEBUG - i is1, total is1
