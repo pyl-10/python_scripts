@@ -9,9 +9,9 @@ from aip import  AipOcr
 '''
 
 # 你的APPID AK SK
-APP_ID = '23919599'
-API_KEY = 'GVG2dxUKVtUWZDHfCUkuSXdo'
-SECRET_KEY = '6Lzu5uheHgWf1DyfXVQ7LxwGXMUGBvSt'
+APP_ID = ''
+API_KEY = ''
+SECRET_KEY = ''
 
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 # 读取图片
