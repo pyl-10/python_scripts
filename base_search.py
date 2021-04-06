@@ -1,17 +1,27 @@
+
 class SearchEngineBase(object):
     def __init__(self):
         pass
 
     def add_corpus(self, file_path):
-        with open(file_path, 'r') as f:
+        '''
+        添加语料(正常来说此处功能为爬虫，搜索器，提供语料)
+        '''
+        with open(file_path, mode='r') as f:
             text = f.read()
         self.process_corpus(file_path, text)
 
     def process_corpus(self, id, text):
-        raise Exception('process_corpus not')
+        '''
+        索引器(为语料添加索引)
+        '''
+        raise Exception(u'未实现语料索引')
 
     def search(self, query):
-        raise Exception('search not')
+        '''
+        检索器(用户查询关键词)
+        '''
+        raise Exception(u'未实现检索功能')
 
 class SimpleEngine(SearchEngineBase):
     def __init__(self):
@@ -27,6 +37,7 @@ class SimpleEngine(SearchEngineBase):
             if query in text:
                 results.append(id)
         return results
+
 
 def main(search_engine):
     for file_path in ['out.txt', 'moby_dict.txt', 'myProgramLog.txt']:
